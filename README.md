@@ -1,17 +1,6 @@
 # 🎤 MLX-Transcribe
 
-```
- ███▄ ▄███▓ ██▓    ▓██   ██▓    ▄▄▄█████▓ ██▀███   ▄▄▄       ███▄    █   ██████  ▄████▄   ██▀███   ██▓ ▄▄▄▄   ▓█████ 
-▓██▒▀█▀ ██▒▓██▒     ▒██  ██▒    ▓  ██▒ ▓▒▓██ ▒ ██▒▒████▄     ██ ▀█   █ ▒██    ▒ ▒██▀ ▀█  ▓██ ▒ ██▒▓██▒▓█████▄ ▓█   ▀ 
-▓██    ▓██░▒██░      ▒██ ██░    ▒ ▓██░ ▒░▓██ ░▄█ ▒▒██  ▀█▄  ▓██  ▀█ ██▒░ ▓██▄   ▒▓█    ▄ ▓██ ░▄█ ▒▒██▒▒██▒ ▄██▒███   
-▒██    ▒██ ▒██░      ░ ▐██▓░    ░ ▓██▓ ░ ▒██▀▀█▄  ░██▄▄▄▄██ ▓██▒  ▐▌██▒  ▒   ██▒▒▓▓▄ ▄██▒▒██▀▀█▄  ░██░▒██░█▀  ▒▓█  ▄ 
-▒██▒   ░██▒░██████▒  ░ ██▒▓░      ▒██▒ ░ ░██▓ ▒██▒ ▓█   ▓██▒▒██░   ▓██░▒██████▒▒▒ ▓███▀ ░░██▓ ▒██▒░██░░▓█  ▀█▓░▒████▒
-░ ▒░   ░  ░░ ▒░▓  ░   ██▒▒▒       ▒ ░░   ░ ▒▓ ░▒▓░ ▒▒   ▓▒█░░ ▒░   ▒ ▒ ▒ ▒▓▒ ▒ ░░ ░▒ ▒  ░░ ▒▓ ░▒▓░░▓  ░▒▓███▀▒░░ ▒░ ░
-░  ░      ░░ ░ ▒  ░ ▓██ ░▒░         ░      ░▒ ░ ▒░  ▒   ▒▒ ░░ ░░   ░ ▒░░ ░▒  ░ ░  ░  ▒     ░▒ ░ ▒░ ▒ ░▒░▒   ░  ░ ░  ░
-░      ░     ░ ░    ▒ ▒ ░░        ░        ░░   ░   ░   ▒      ░   ░ ░ ░  ░  ░  ░          ░░   ░  ▒ ░ ░    ░    ░   
-       ░       ░  ░ ░ ░                     ░           ░  ░         ░       ░  ░ ░         ░      ░   ░    ░    ░  ░
-                   ░ ░                                                          ░                              ░      
-```
+
 
 > 🚀 **Lightning-fast AI transcription directly at your cursor** - The fastest way from voice to text
 
@@ -24,9 +13,11 @@
 
 MLX-Transcribe is a **privacy-first**, **lightning-fast** transcription app for macOS that transforms your voice into text instantly at your cursor position. Built with Apple Silicon optimization and seamless integration with [MLX-GUI](https://github.com/RamboRogers/mlx-gui), it's the perfect tool for developers, writers, and anyone who values speed and privacy.
 
+<img src="media/trayapp.png" alt="MLX-Transcribe" width="500" align="center">
+
 ### 🔥 Key Features
 
-- **⚡ Instant Transcription** - Press `Control + ` ` ` and speak - text appears instantly at your cursor
+- **⚡ Instant Transcription** - Press ``` Control + ` ```  and speak - text appears instantly at your cursor
 - **🤖 Local AI First** - Seamless [MLX-GUI](https://github.com/RamboRogers/mlx-gui) integration with automatic model management
 - **🛡️ Privacy Focused** - Your voice never leaves your machine with local processing
 - **🎛️ Multi-API Support** - Works with Local MLX, OpenAI, and Groq endpoints
@@ -38,22 +29,14 @@ MLX-Transcribe is a **privacy-first**, **lightning-fast** transcription app for 
 
 ## 🎬 See It In Action
 
-![MLX-Transcribe Demo](assets/demo.gif)
+![MLX-Transcribe Demo](media/demo.gif)
 
-*Press Control + ` ` → Speak → Text appears instantly at your cursor*
+*Press ```Control + ` ``` → Speak → Text appears instantly at your cursor*
 
 ## 🚀 Quick Install
 
-### One-Line Install (Recommended)
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/RamboRogers/MLX-Transcribe/main/scripts/install.sh | bash
-```
-
-### Manual Download
-
 1. Download the latest release from [Releases](https://github.com/RamboRogers/MLX-Transcribe/releases)
-2. Open the `.dmg` file and drag MLX-Transcribe to Applications
+2. Open the `.zip` file and drag MLX-Transcribe to Applications
 3. Launch and grant accessibility permissions when prompted
 
 ## ⚙️ Setup
@@ -75,9 +58,9 @@ For text insertion at cursor:
 ## 🎮 Usage
 
 ### Basic Transcription
-1. **Press `Control + ` ` `** (or your custom hotkey)
+1. **Press `Control + ~`** (or your custom hotkey)
 2. **Speak clearly** while you see the red recording indicator
-3. **Press `Control`** to stop recording, or `Control + ` ` ` again
+3. **Press `Control + ~`** to stop recording, or `Control + ~` again
 4. **Text appears instantly** at your cursor position
 
 ### Menu Bar Controls
@@ -89,11 +72,13 @@ Click the 🎤 icon in your menu bar to:
 
 ### Pro Tips
 - **Best Results**: Speak clearly and pause briefly between sentences
-- **Quick Stop**: Press `Control` while recording to stop immediately
+- **Quick Stop**: Press `Control + ~` while recording to stop immediately
 - **Works Everywhere**: Terminal, VS Code, Slack, browsers, documents
 - **Privacy Mode**: Use local MLX processing to keep everything offline
 
 ## 🛠️ API Configurations
+
+<img src="media/api.png" alt="API Configurations" width="500" align="center">
 
 ### 🏠 Local MLX (Recommended)
 ```
@@ -128,28 +113,16 @@ API Key: Required (gsk_...)
 
 ### Custom Hotkeys
 Popular combinations:
-- `Control + ` ` ` (Default) - Great for developers
+- `Control + ~` (Default) - Great for developers
 - `Shift + Tab` - Alternative option
 - `Option + Space` - Quick access
 - `F5` - Function key option
 
 ### Keyboard Shortcuts
-- **Start/Stop Recording**: Your configured hotkey (default: `Control + ` ` `)
-- **Force Stop**: `Control` (while recording)
+- **Start/Stop Recording**: Your configured hotkey (default: `Control + ~`)
+- **Force Stop**: `Control + ~` (while recording)
 - **Open Menu**: Click menu bar icon
 
-## 🏗️ Building from Source
-
-```bash
-git clone https://github.com/RamboRogers/MLX-Transcribe.git
-cd MLX-Transcribe
-open MLX-Transcribe.xcodeproj
-```
-
-Requirements:
-- Xcode 15.0+
-- macOS 12.0+ SDK
-- Swift 5.9+
 
 ## 🤝 Contributing
 
@@ -181,7 +154,7 @@ We welcome contributions! Here's how you can help:
 
 ## 📜 License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+CC BY-NC-SA License - see [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
