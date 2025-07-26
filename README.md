@@ -1,6 +1,10 @@
 # 🎤 MLX-Transcribe
 
+![MLX-Transcribe Demo](media/demo.gif)
 
+<p align="center">*Press "Control + ~" → Speak → Text appears instantly at your cursor*</p>
+
+---
 
 > 🚀 **Lightning-fast AI transcription directly at your cursor** - The fastest way from voice to text
 
@@ -11,7 +15,7 @@
 
 ## 🎯 What is MLX-Transcribe?
 
-MLX-Transcribe is a **privacy-first**, **lightning-fast** transcription app for macOS that transforms your voice into text instantly at your cursor position. Built with Apple Silicon optimization and seamless integration with [MLX-GUI](https://github.com/RamboRogers/mlx-gui), it's the perfect tool for developers, writers, and anyone who values speed and privacy.
+MLX-Transcribe is a ***NATIVE SIGNED*** **privacy-first**, **lightning-fast** transcription app for macOS that transforms your voice into text instantly at your cursor position. Built with Apple Silicon optimization and seamless integration with [MLX-GUI](https://github.com/RamboRogers/mlx-gui), it's the perfect tool for developers, writers, and anyone who values speed and privacy.
 
 <img src="media/trayapp.png" alt="MLX-Transcribe" width="500" align="center">
 
@@ -27,11 +31,6 @@ MLX-Transcribe is a **privacy-first**, **lightning-fast** transcription app for 
 - **🔄 Auto-Install Models** - Automatically downloads and loads Parakeet models via MLX-GUI
 - **🏃‍♂️ Startup Ready** - Optional login item for seamless workflow integration
 
-## 🎬 See It In Action
-
-![MLX-Transcribe Demo](media/demo.gif)
-
-*Press ```Control + ` ``` → Speak → Text appears instantly at your cursor*
 
 ## 🚀 Quick Install
 
