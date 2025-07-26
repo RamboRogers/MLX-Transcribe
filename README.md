@@ -8,7 +8,7 @@
 
 > 🚀 **Lightning-fast AI transcription directly at your cursor** - The fastest way from voice to text
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-Freeware-green.svg)](LICENSE)
 [![macOS](https://img.shields.io/badge/macOS-12.0+-success.svg)](https://www.apple.com/macos/)
 [![Architecture](https://img.shields.io/badge/arch-Intel%20%7C%20Apple%20Silicon-orange.svg)](https://github.com/RamboRogers/MLX-Transcribe/releases)
 [![GitHub stars](https://img.shields.io/github/stars/RamboRogers/MLX-Transcribe.svg?style=social&label=Star)](https://github.com/RamboRogers/MLX-Transcribe)
@@ -153,7 +153,7 @@ We welcome contributions! Here's how you can help:
 
 ## 📜 License
 
-CC BY-NC-SA License - see [LICENSE](LICENSE) file for details.
+Freeware License - see [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
